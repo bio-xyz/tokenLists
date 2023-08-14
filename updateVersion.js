@@ -10,6 +10,7 @@ async function updateFileVersion () {
             major: latestVersionTokenList.version.major + 1
         }
     }
+    
     fs.writeFileSync("./public/bioTokenList.json", JSON.stringify(updatedersion))
 }
 
