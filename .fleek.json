@@ -2,6 +2,7 @@
   "build": {
     "image": "node:alpine",
     "command": "node updateVersion.js",
-    "publicDir": "public"
+    "publicDir": "public",
+    "baseDir": "."
   }
 }
