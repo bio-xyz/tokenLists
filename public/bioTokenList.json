@@ -1,0 +1,70 @@
+{
+  "name": "BIO Token List",
+  "keywords": ["desci", "ipfnt", "BIODAO", "Bio tech"],
+  "version": { "major": 0, "minor": 0, "patch": 0 },
+  "tokens": [
+    {
+      "name": "VitaDAO Token",
+      "symbol": "VITA",
+      "address": "0x81f8f0bb1cB2A06649E51913A151F0E7Ef6FA321",
+      "decimals": 18,
+      "chainId": 1
+    },
+    {
+      "symbol": "vVITA",
+      "name": "VitaDAO Virtual Token",
+      "address": "0x7c36c64DA1c3a2065074caa9C48e7648FB733aAB",
+      "decimals": 18,
+      "chainId": 1
+    },
+    {
+      "symbol": "HAIR",
+      "name": "HairDAO Token",
+      "address": "0x9Ce115f0341ae5daBC8B477b74E83db2018A6f42",
+      "decimals": 18,
+      "chainId": 1
+    },
+    {
+      "symbol": "GROW",
+      "name": "ValleyDAO Token",
+      "address": "0x761A3557184cbC07b7493da0661c41177b2f97fA",
+      "decimals": 18,
+      "chainId": 1
+    },
+    {
+      "symbol": "vGROW",
+      "name": "ValleyDAO Virtual Token",
+      "address": "0x4f55eDFfd4e9325577D4C8Dde6F15782CEfd6517",
+      "decimals": 18,
+      "chainId": 1
+    },
+    {
+      "symbol": "BIODAO",
+      "name": "Generic Bio DAO",
+      "address": "0x3110a768DC64f7aAB92F7Ae6E1371e5CE581F95F",
+      "decimals": 18,
+      "chainId": 5
+    },
+    {
+      "symbol": "vBIODAO",
+      "name": "Vested Generic Bio DAO",
+      "address": "0x6FFBd6325B2102F5f9AaB74d7418A27F9174c92f",
+      "decimals": 18,
+      "chainId": 5
+    },
+    {
+      "symbol": "BIODAO",
+      "name": "Generic Bio DAO",
+      "address": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+      "decimals": 18,
+      "chainId": 31337
+    },
+    {
+      "symbol": "vBIODAO",
+      "name": "Vested Generic Bio DAO",
+      "address": "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6",
+      "decimals": 18,
+      "chainId": 31337
+    }
+  ]
+}
