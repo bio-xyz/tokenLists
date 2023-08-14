@@ -1,8 +1,8 @@
 const fs = require('fs');
 
-function updateFileVersion () {
+async function updateFileVersion () {
         const tokenList = JSON.parse(fs.readFileSync("./public/bioTokenList.json").toString())
-        const latestVersionTokenList = JSON.parse(fs.readFileSync("https://black-sky-1486.on.fleek.co/bioTokenList.json").toString())
+        const latestVersionTokenList = await (await fetch("https://black-sky-1486.on.fleek.co/bioTokenList.json")).json()
         const updatedersion = {
         ...tokenList,
         version: {
