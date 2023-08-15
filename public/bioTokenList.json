@@ -53,6 +53,20 @@
       "chainId": 5
     },
     {
+      "symbol": "MOLDAO",
+      "name": "Generic MOL DAO on Sepolia",
+      "address": "0xe0D404C22228b03D5b8a715Cb569C4944BC5A27A",
+      "decimals": 18,
+      "chainId": 11155111
+    },
+    {
+      "symbol": "vMOLDAO",
+      "name": "Vested MOL DAO on Sepolia",
+      "address": "0x8f80d1183CD983B01B0C9AC6777cC732Ec9800de",
+      "decimals": 18,
+      "chainId": 11155111
+    },
+    {
       "symbol": "BIODAO",
       "name": "Generic Bio DAO",
       "address": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
