@@ -1,9 +1,11 @@
-const fs = require('fs');
+const {promises: fs} = require('node:fs');
 
 async function updateFileVersion () {
-        const tokenList = JSON.parse(fs.readFileSync("./public/bioTokenList.json").toString())
-        const latestVersionTokenList = await (await fetch("https://black-sky-1486.on.fleek.co/bioTokenList.json")).json()
-        const updatedersion = {
+    const fileContent = await fs.readFile("./public/bioTokenList.json", "utf-8")
+    const tokenList = JSON.parse(fileContent)
+    const latestVersionTokenList = await (await fetch("https://bioxyz.on.fleek.co/bioTokenList.json")).json()
+
+    const updatedVersion = {
         ...tokenList,
         version: {
             ...tokenList.version,
@@ -11,7 +13,7 @@ async function updateFileVersion () {
         }
     }
     
-    fs.writeFileSync("./public/bioTokenList.json", JSON.stringify(updatedersion))
+    await fs.writeFile("./public/bioTokenList.json", JSON.stringify(updatedVersion, null, 2))
 }
 
 updateFileVersion()
