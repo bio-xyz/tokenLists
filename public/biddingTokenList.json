@@ -1,0 +1,85 @@
+{
+    "name": "Bidding Token List",
+    "keywords": ["desci", "ipfnt", "BIODAO", "Bio tech"],
+    "version": { "major": 1, "minor": 0, "patch": 0 },
+    "tokens": [
+        {
+            "symbol": "USDC",
+            "name": "USD Coin",
+            "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+            "decimals": 6,
+            "chainId": 1
+        },
+        {
+            "symbol": "DAI",
+            "name": "Dai Stablecoin",
+            "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+            "decimals": 18,
+            "chainId": 1
+        },
+        {
+            "symbol": "WETH",
+            "name": "Wrapped Ether",
+            "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+            "decimals": 18,
+            "chainId": 1
+        },
+        {
+            "symbol": "DAI",
+            "name": "Dai Stablecoin",
+            "address": "0x11fE4B6AE13d2a6055C8D9cF65c55bac32B5d844",
+            "decimals": 18,
+            "chainId": 5
+        },
+        {
+            "symbol": "USDC",
+            "name": "USD Coin",
+            "address": "0x07865c6E87B9F70255377e024ace6630C1Eaa37F",
+            "decimals": 6,
+            "chainId": 5
+        },
+        {
+            "symbol": "WETH",
+            "name": "Wrapped Ether",
+            "address": "0xb4fbf271143f4fbf7b91a5ded31805e42b2208d6",
+            "decimals": 18,
+            "chainId": 5
+        },
+        {
+            "symbol": "WETHx",
+            "name": "Wrapped Ether Sepolia",
+            "address": "0xD22c0859125537E91D52B7053186A9f20D4D8037",
+            "decimals": 18,
+            "chainId": 11155111
+        },
+        {
+            "symbol": "USDC6",
+            "name": "USDC Sepolia (6 decimals)",
+            "address": "0x6b245678caad936BeD893d5Ca90fc5D0704c74fc",
+            "decimals": 6,
+            "chainId": 11155111
+        },
+        {
+            "symbol": "USDC18",
+            "name": "USD Coin 18",
+            "address": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+            "decimals": 18,
+            "chainId": 31337
+        },
+        {
+            "symbol": "USDC6",
+            "name": "USD Coin 6",
+            "address": "0x7a2088a1bFc9d81c55368AE168C2C02570cB814F",
+            "decimals": 6,
+            "chainId": 31337
+        },
+        {
+            "symbol": "WFETH",
+            "name": "Wrapped Fake Eth",
+            "address": "0xE6E340D132b5f46d1e472DebcD681B2aBc16e57E",
+            "decimals": 18,
+            "chainId": 31337
+        }
+    ]
+  }
+  
