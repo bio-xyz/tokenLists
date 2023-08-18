@@ -1,19 +1,25 @@
-const {promises: fs} = require('node:fs');
+const { promises: fs } = require("node:fs");
 
-async function updateFileVersion () {
-    const fileContent = await fs.readFile("./public/bioTokenList.json", "utf-8")
-    const tokenList = JSON.parse(fileContent)
-    const latestVersionTokenList = await (await fetch("https://bioxyz.on.fleek.co/bioTokenList.json")).json()
+async function updateFileVersion(fileName) {
+  const fileContent = await fs.readFile(`./public/${fileName}`, "utf-8");
+  const tokenList = JSON.parse(fileContent);
+  const latestVersionTokenList = await (
+    await fetch(`https://bioxyz.on.fleek.co/${fileName}`)
+  ).json();
 
-    const updatedVersion = {
-        ...tokenList,
-        version: {
-            ...tokenList.version,
-            major: latestVersionTokenList.version.major + 1
-        }
-    }
-    
-    await fs.writeFile("./public/bioTokenList.json", JSON.stringify(updatedVersion, null, 2))
+  const updatedVersion = {
+    ...tokenList,
+    version: {
+      ...tokenList.version,
+      major: latestVersionTokenList.version.major + 1,
+    },
+  };
+
+  await fs.writeFile(
+    `./public/${fileName}`,
+    JSON.stringify(updatedVersion, null, 2)
+  );
 }
 
-updateFileVersion()
+updateFileVersion("bioTokenList.json");
+updateFileVersion("biddingTokenList.json");
