@@ -22,4 +22,4 @@ async function updateFileVersion(fileName) {
 }
 
 updateFileVersion("bioTokenList.json");
-//updateFileVersion("biddingTokenList.json");
+updateFileVersion("biddingTokenList.json");
