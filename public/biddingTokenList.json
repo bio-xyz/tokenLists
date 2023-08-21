@@ -57,7 +57,14 @@
     {
       "symbol": "WETH",
       "name": "Wrapped Ether",
-      "address": "0xd0df82de051244f04bff3a8bb1f62e1cd39eed92",
+      "address": "0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14",
+      "decimals": 18,
+      "chainId": 11155111
+    },
+    {
+      "symbol": "WETH",
+      "name": "WETH9Mock",
+      "address": "0xD0dF82dE051244f04BfF3A8bB1f62E1cD39eED92",
       "decimals": 18,
       "chainId": 11155111
     },
