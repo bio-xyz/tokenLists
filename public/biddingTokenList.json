@@ -55,15 +55,22 @@
       "chainId": 5
     },
     {
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "address": "0xd0df82de051244f04bff3a8bb1f62e1cd39eed92",
+      "decimals": 18,
+      "chainId": 11155111
+    },
+    {
       "symbol": "WETHx",
-      "name": "Wrapped Ether Sepolia",
+      "name": "Extreme WETH",
       "address": "0xD22c0859125537E91D52B7053186A9f20D4D8037",
       "decimals": 18,
       "chainId": 11155111
     },
     {
-      "symbol": "USDC6",
-      "name": "USDC Sepolia (6 decimals)",
+      "symbol": "USDC",
+      "name": "USDC",
       "address": "0x6b245678caad936BeD893d5Ca90fc5D0704c74fc",
       "decimals": 6,
       "chainId": 11155111
