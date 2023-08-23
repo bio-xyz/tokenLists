@@ -39,6 +39,13 @@
       "chainId": 1
     },
     {
+      "symbol": "ATH",
+      "name": "AthenaDAO Token",
+      "address": "0xa4ffdf3208f46898ce063e25c1c43056fa754739",
+      "decimals": 18,
+      "chainId": 1
+    },
+    {
       "symbol": "BIODAO",
       "name": "Generic Bio DAO",
       "address": "0x3110a768DC64f7aAB92F7Ae6E1371e5CE581F95F",
