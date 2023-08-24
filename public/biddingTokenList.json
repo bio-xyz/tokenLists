@@ -76,9 +76,16 @@
       "chainId": 11155111
     },
     {
-      "symbol": "USDC",
-      "name": "USDC",
+      "symbol": "USDCx",
+      "name": "USD Coin Extreme",
       "address": "0x6b245678caad936BeD893d5Ca90fc5D0704c74fc",
+      "decimals": 6,
+      "chainId": 11155111
+    },
+    {
+      "symbol": "USDC",
+      "name": "USD (not official)",
+      "address": "0xC7B1b8BEA20d559040928FA1e6a23a3c221286B1",
       "decimals": 6,
       "chainId": 11155111
     },
