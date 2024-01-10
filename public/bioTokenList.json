@@ -6,9 +6,20 @@
     {
       "name": "VitaDAO Token",
       "symbol": "VITA",
-      "address": "0x81f8f0bb1cB2A06649E51913A151F0E7Ef6FA321",
       "decimals": 18,
-      "chainId": 1
+      "description": "VitaDAO Governance Token",
+      "website": "https://www.vitadao.com",
+      "twitter": "@vita_dao",
+      "address": "0x81f8f0bb1cB2A06649E51913A151F0E7Ef6FA321",
+      "chainId": 1,
+      "tokens": {
+        "ethereum": {
+          "address": "0x81f8f0bb1cB2A06649E51913A151F0E7Ef6FA321"
+        },
+        "optimism": {
+          "address": "0x7d14206c937e70e19e3a5b94011faf0d5b3928e2"
+        }
+      }
     },
     {
       "symbol": "vVITA",
