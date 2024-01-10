@@ -46,6 +46,13 @@
       "chainId": 1
     },
     {
+      "symbol": "CRYO",
+      "name": "CryoDAO Token",
+      "address": "0xf4308b0263723b121056938c2172868E408079D0",
+      "decimals": 18,
+      "chainId": 1
+    },
+    {
       "symbol": "BIODAO",
       "name": "Generic Bio DAO",
       "address": "0x3110a768DC64f7aAB92F7Ae6E1371e5CE581F95F",
