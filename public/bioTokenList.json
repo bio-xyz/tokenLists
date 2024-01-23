@@ -4,6 +4,13 @@
   "version": { "major": 2, "minor": 0, "patch": 0 },
   "tokens": [
     {
+      "symbol": "vBIO",
+      "name": "BIO Vesting Token",
+      "address": "0x1510e9cf00daeB33E9fC9566a70de7C75bE9857b",
+      "decimals": 18,
+      "chainId": 1
+    },
+    {
       "name": "VitaDAO Token",
       "symbol": "VITA",
       "decimals": 18,
@@ -33,14 +40,30 @@
       "name": "HairDAO Token",
       "address": "0x9Ce115f0341ae5daBC8B477b74E83db2018A6f42",
       "decimals": 18,
-      "chainId": 1
+      "chainId": 1,
+      "tokens": {
+        "ethereum": {
+          "address": "0x9Ce115f0341ae5daBC8B477b74E83db2018A6f42"
+        },
+        "optimism": {
+          "address": "0x5465145a47260D5E715733997333A175D97285Bb"
+        }
+      }
     },
     {
       "symbol": "GROW",
       "name": "ValleyDAO Token",
       "address": "0x761A3557184cbC07b7493da0661c41177b2f97fA",
       "decimals": 18,
-      "chainId": 1
+      "chainId": 1,
+      "tokens": {
+        "ethereum": {
+          "address": "0x761A3557184cbC07b7493da0661c41177b2f97fA"
+        },
+        "optimism": {
+          "address": "0xc871cCf95024eFa2CbcE69B5B775D2a1DcF49c1B"
+        }
+      }
     },
     {
       "symbol": "vGROW",
