@@ -87,7 +87,7 @@
       "chainId": 1,
       "description": "CryoDAO Governance Token",
       "website": "https://www.cryodao.org/",
-      "twitter": "@CryoDAO",
+      "twitter": "https://twitter.com/CryoDAO",
       "tokens": {
           "ethereum": {
               "address": "0xf4308b0263723b121056938c2172868E408079D0"
@@ -99,6 +99,16 @@
               "address": "0x1f4446fAAAed23090f324f051C3F8c5ce5aD1c36"
           }
       }
+    },
+    {
+      "symbol": "NEURON",
+      "name": "CerebrumDAO Token",
+      "address": "0xab814ce69E15F6B9660A3B184c0B0C97B9394A6b",
+      "decimals": 18,
+      "chainId": 1,
+      "description": "CerebrumDAO Token",
+      "website": "https://cerebrumdao.com/",
+      "twitter": "https://twitter.com/Cerebrum_DAO"
     },
     {
       "symbol": "BIODAO",
