@@ -75,9 +75,19 @@
     {
       "symbol": "ATH",
       "name": "AthenaDAO Token",
-      "address": "0xa4ffdf3208f46898ce063e25c1c43056fa754739",
+      "address": "0xA4fFdf3208F46898CE063e25c1C43056FA754739",
       "decimals": 18,
-      "chainId": 1
+      "chainId": 1,
+      "tokens": { 
+        "ethereum": {
+            "address": "0xA4fFdf3208F46898CE063e25c1C43056FA754739"
+        },
+        "optimism": {
+            "address": "0xc62c9B7BE5d4E5D415F682b2331bfa5f0C8D061a"
+        },
+        "base": {
+            "address": "0x58D75a1c4477914f9a98A8708fEaeD1DbE40b8a3"
+        }
     },
     {
       "symbol": "CRYO",
