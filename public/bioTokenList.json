@@ -4,6 +4,13 @@
   "version": { "major": 2, "minor": 0, "patch": 0 },
   "tokens": [
     {
+      "symbol": "BIO",
+      "name": "BIO.xyz Token",
+      "address": "0xd2cf1dC4Af7da92f849C2fF6A162b73cA3F4b331",
+      "decimals": 18,
+      "chainId": 1
+    },
+    {
       "symbol": "vBIO",
       "name": "BIO Vesting Token",
       "address": "0x1510e9cf00daeB33E9fC9566a70de7C75bE9857b",
