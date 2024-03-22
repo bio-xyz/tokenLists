@@ -3,9 +3,21 @@ const { promises: fs } = require("node:fs");
 async function updateFileVersion(fileName) {
   const fileContent = await fs.readFile(`./public/${fileName}`, "utf-8");
   const tokenList = JSON.parse(fileContent);
-  const latestVersionTokenList = await (
-    await fetch(`https://bioxyz.on.fleek.co/${fileName}`)
-  ).json();
+  let latestVersionTokenList;
+
+  try {
+     latestVersionTokenList = await (
+      await fetch(`https://bioxyz.on.fleek.co/${fileName}`)
+    ).json();
+  } catch(e) {
+    latestVersionTokenList = {
+      version: {
+        major: tokenList.version.major,
+        minor: 0,
+        patch: 0,
+      },
+    }
+  }
 
   const updatedVersion = {
     ...tokenList,
