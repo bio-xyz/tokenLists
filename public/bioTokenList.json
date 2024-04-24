@@ -129,6 +129,13 @@
       "twitter": "https://twitter.com/Cerebrum_DAO"
     },
     {
+      "symbol": "vNEURON",
+      "name": "Cerebrum Virtual DAO Token",
+      "address": "0x304d8ae7c56Fa221b4808004e33255900215295D",
+      "decimals": 18,
+      "chainId": 1
+    },
+    {
       "symbol": "BIODAO",
       "name": "Generic Bio DAO",
       "address": "0x3110a768DC64f7aAB92F7Ae6E1371e5CE581F95F",
