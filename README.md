@@ -1,9 +1,10 @@
 # Bioxyz token lists
+- https://tokenlists.bio.xyz
 
-## Deployed on fleek.co
-https://bioxyz.on.fleek.co/
+## Direct links on fleek.xyz
+- https://bioxyz.on-fleek.app/bioTokenList.json  
+- https://bioxyz.on-fleek.app/biddingTokenList.json
 
-## Deployed on fleek.xyz
-https://bioxyz.on-fleek.app/bioTokenList.json  
-https://bioxyz.on-fleek.app/biddingTokenList.json
+## Formerly deployed on 
+- https://bioxyz.on.fleek.co/
 
