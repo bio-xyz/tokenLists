@@ -6,14 +6,14 @@
     {
       "symbol": "BIO",
       "name": "BIO.xyz Token",
-      "address": "0xd2cf1dC4Af7da92f849C2fF6A162b73cA3F4b331",
+      "address": "0xcb1592591996765Ec0eFc1f92599A19767ee5ffA",
       "decimals": 18,
       "chainId": 1
     },
     {
       "symbol": "vBIO",
       "name": "BIO Vesting Token",
-      "address": "0x1510e9cf00daeB33E9fC9566a70de7C75bE9857b",
+      "address": "0x2141B47A1C7De6df073d23ff94F04d9fd2aaA9b3",
       "decimals": 18,
       "chainId": 1
     },
@@ -91,15 +91,15 @@
       "address": "0xA4fFdf3208F46898CE063e25c1C43056FA754739",
       "decimals": 18,
       "chainId": 1,
-      "tokens": { 
+      "tokens": {
         "ethereum": {
-            "address": "0xA4fFdf3208F46898CE063e25c1C43056FA754739"
+          "address": "0xA4fFdf3208F46898CE063e25c1C43056FA754739"
         },
         "optimism": {
-            "address": "0xc62c9B7BE5d4E5D415F682b2331bfa5f0C8D061a"
+          "address": "0xc62c9B7BE5d4E5D415F682b2331bfa5f0C8D061a"
         },
         "base": {
-            "address": "0x58D75a1c4477914f9a98A8708fEaeD1DbE40b8a3"
+          "address": "0x58D75a1c4477914f9a98A8708fEaeD1DbE40b8a3"
         }
       }
     },
@@ -113,15 +113,15 @@
       "website": "https://www.cryodao.org/",
       "twitter": "https://twitter.com/CryoDAO",
       "tokens": {
-          "ethereum": {
-              "address": "0xf4308b0263723b121056938c2172868E408079D0"
-          },
-          "optimism": {
-              "address": "0x01402d1Bc10Ae6E96C0E494A5860748517a3c070"
-          },
-          "base": {
-              "address": "0x1f4446fAAAed23090f324f051C3F8c5ce5aD1c36"
-          }
+        "ethereum": {
+          "address": "0xf4308b0263723b121056938c2172868E408079D0"
+        },
+        "optimism": {
+          "address": "0x01402d1Bc10Ae6E96C0E494A5860748517a3c070"
+        },
+        "base": {
+          "address": "0x1f4446fAAAed23090f324f051C3F8c5ce5aD1c36"
+        }
       }
     },
     {
@@ -141,6 +141,27 @@
       "decimals": 18,
       "chainId": 1
     },
+    {
+      "symbol": "PSY",
+      "name": "PsyDAO Token",
+      "address": "0x2196b84eace74867b73fb003aff93c11fce1d47a",
+      "decimals": 18,
+      "chainId": 1,
+      "description": "PsyDAO Token",
+      "website": "https://www.psydao.io/",
+      "twitter": "https://x.com/psy_dao"
+    },
+    {
+      "symbol": "RSC",
+      "name": "ResearchCoin",
+      "address": "0xD101dCC414F310268c37eEb4cD376CcFA507F571",
+      "decimals": 18,
+      "chainId": 1,
+      "description": "ResearchCoin",
+      "website": "https://www.researchhub.com/",
+      "twitter": "https://x.com/ResearchHub"
+    },
+
     {
       "symbol": "BIODAO",
       "name": "Generic Bio DAO",
