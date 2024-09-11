@@ -118,7 +118,7 @@
       }
     },
     {
-      "symbol": "ATH",
+      "symbol": "vATH",
       "name": "AthenaDAO Virtual Token",
       "address": "0x5b99E2DaDAcc5395dC01fd1Eb75FA48188e2eeB8",
       "decimals": 18,
@@ -146,7 +146,7 @@
       }
     },
     {
-      "symbol": "CRYO",
+      "symbol": "vCRYO",
       "name": "CryoDAO Virtual Token",
       "address": "0xf5bdfee7910c561606e6a19bbf0319238a6a2340",
       "decimals": 18,
