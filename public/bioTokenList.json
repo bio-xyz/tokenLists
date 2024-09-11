@@ -72,7 +72,7 @@
       "name": "HairDAO Virtual Token",
       "address": "0x838362aDD8CE6DdaCF02Dc0c5Ea2c114a3910F09",
       "decimals": 18,
-      "chainId": 11155111
+      "chainId": 10
     },
     {
       "symbol": "GROW",
