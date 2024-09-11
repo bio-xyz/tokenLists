@@ -12,7 +12,14 @@
     },
     {
       "symbol": "vBIO",
-      "name": "BIO Vesting Token",
+      "name": "BIO Vesting Master",
+      "address": "0x0d2ADB4Af57cdac02d553e7601456739857D2eF4",
+      "decimals": 18,
+      "chainId": 1
+    },
+    {
+      "symbol": "vBIO",
+      "name": "Old BIO Vesting Token",
       "address": "0x2141B47A1C7De6df073d23ff94F04d9fd2aaA9b3",
       "decimals": 18,
       "chainId": 1
@@ -61,6 +68,13 @@
       }
     },
     {
+      "symbol": "vHAIR",
+      "name": "HairDAO Virtual Token",
+      "address": "0x838362aDD8CE6DdaCF02Dc0c5Ea2c114a3910F09",
+      "decimals": 18,
+      "chainId": 10
+    },
+    {
       "symbol": "GROW",
       "name": "ValleyDAO Token",
       "address": "0x761A3557184cbC07b7493da0661c41177b2f97fA",
@@ -104,6 +118,13 @@
       }
     },
     {
+      "symbol": "vATH",
+      "name": "AthenaDAO Virtual Token",
+      "address": "0x5b99E2DaDAcc5395dC01fd1Eb75FA48188e2eeB8",
+      "decimals": 18,
+      "chainId": 1
+    },
+    {
       "symbol": "CRYO",
       "name": "CryoDAO Token",
       "address": "0xf4308b0263723b121056938c2172868E408079D0",
@@ -123,6 +144,13 @@
           "address": "0x1f4446fAAAed23090f324f051C3F8c5ce5aD1c36"
         }
       }
+    },
+    {
+      "symbol": "vCRYO",
+      "name": "CryoDAO Virtual Token",
+      "address": "0xf5bdfee7910c561606e6a19bbf0319238a6a2340",
+      "decimals": 18,
+      "chainId": 1
     },
     {
       "symbol": "NEURON",
