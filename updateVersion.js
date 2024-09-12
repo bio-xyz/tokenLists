@@ -6,19 +6,17 @@ async function updateFileVersion(fileName) {
   let latestVersionTokenList;
 
   try {
-     latestVersionTokenList = await (
-      //await fetch(`https://tokenlists.bio.xyz/${fileName}`)
-      await fetch(`https://bioxyz.on-fleek.app/${fileName}`)
-      
+    latestVersionTokenList = await (
+      await fetch(`https://tokenlists.bio.xyz/${fileName}`)
     ).json();
-  } catch(e) {
+  } catch (e) {
     latestVersionTokenList = {
       version: {
         major: tokenList.version.major,
         minor: 0,
         patch: 0,
       },
-    }
+    };
   }
 
   const updatedVersion = {
