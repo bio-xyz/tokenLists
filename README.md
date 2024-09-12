@@ -11,3 +11,6 @@
 
 - https://bioxyz.on.fleek.co/
 
+# BIO
+
+- https://www.bio.xyz
