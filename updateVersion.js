@@ -7,7 +7,9 @@ async function updateFileVersion(fileName) {
 
   try {
      latestVersionTokenList = await (
-      await fetch(`https://tokenlists.bio.xyz/${fileName}`)
+      //await fetch(`https://tokenlists.bio.xyz/${fileName}`)
+      await fetch(`https://bioxyz.on-fleek.app/${fileName}`)
+      
     ).json();
   } catch(e) {
     latestVersionTokenList = {
