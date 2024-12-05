@@ -189,7 +189,24 @@
       "website": "https://www.researchhub.com/",
       "twitter": "https://x.com/ResearchHub"
     },
-
+    {
+      "symbol": "QBIO",
+      "name": "Quantum Biology DAO Token",
+      "address": "0x3E6A1b21bd267677Fa49BE6425aEbe2fc0f89bDE",
+      "decimals": 18,
+      "chainId": 1,
+      "website": "https://www.quantumbiology.xyz/",
+      "twitter": "https://x.com/QuantumBioDAO"
+    },
+    {
+      "symbol": "vQBIO",
+      "name": "Quantum Biology DAO Vesting Token",
+      "address": "0x637b118738CCF4146e6679ff620FdDF30a6f0868",
+      "decimals": 18,
+      "chainId": 1,
+      "website": "https://www.quantumbiology.xyz/",
+      "twitter": "https://x.com/QuantumBioDAO"
+    },
     {
       "symbol": "BIODAO",
       "name": "Generic Bio DAO",
