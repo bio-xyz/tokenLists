@@ -208,6 +208,24 @@
       "twitter": "https://x.com/QuantumBioDAO"
     },
     {
+      "symbol": "COVID",
+      "name": "Long Covid Labs Token",
+      "address": "0xC85f5Dd5880D5162fAf5FdB24D40845B7C8F976F",
+      "decimals": 18,
+      "chainId": 1,
+      "website": "https://www.longcovidlabs.org/",
+      "twitter": "https://x.com/LongCOVIDlabs"
+    },
+    {
+      "symbol": "vCOVID",
+      "name": "Long Covid Labs Vesting Token",
+      "address": "0x1362eDaE7a0d002188645B789707a201b840a793",
+      "decimals": 18,
+      "chainId": 1,
+      "website": "https://www.longcovidlabs.org/",
+      "twitter": "https://x.com/LongCOVIDlabs"
+    },
+    {
       "symbol": "BIODAO",
       "name": "Generic Bio DAO",
       "address": "0x3110a768DC64f7aAB92F7Ae6E1371e5CE581F95F",
